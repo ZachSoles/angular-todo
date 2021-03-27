@@ -1,0 +1,16 @@
+<div class="container">
+    <mat-list>
+        <mat-form-field class="searchbox" appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+          </mat-form-field>
+        <mat-list-item *ngFor="let todo of todoList">
+            <mat-card class="example-card">
+                <mat-card-content>
+                    {{todo.name}}
+                    <!-- <mat-checkbox class="right"></mat-checkbox> -->
+                </mat-card-content>
+            </mat-card>
+        </mat-list-item>
+    </mat-list>
+</div>

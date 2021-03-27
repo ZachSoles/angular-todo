@@ -1,0 +1,27 @@
+.example-card {
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 10px;
+}
+
+.searchbox {
+    width: 70vw;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    position: relative;
+}
+
+.right {
+    /* position: absolute;
+    right: 0%;
+    padding: 1%; */
+  }
